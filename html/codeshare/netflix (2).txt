@@ -1,0 +1,127 @@
+<<<<<<<<<<<<<<<<<<<<<<18-11-2025>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>><<<<<<<<<<<<<<<<<<<NETFLIX??>>>>>>>>>>>>>>>>>>>>>>>>..
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .header{
+            height: 100px;
+            width: 100%;
+            background-color: #24252A;
+            display: flex;
+            justify-content: space-between;
+            color: white;
+            font-size: 22px;
+            align-items: center;
+            padding: 0px 100px;
+           font-family: "Raleway", sans-serif;
+        }
+        a{
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+               border-radius: 50px;
+             transition: 1s ease all;
+
+        }
+        .logo{
+            font-weight: 900;
+            font-size: 28px;
+        }
+        nav{
+            display: flex;
+            gap: 30px;
+        }
+        a:hover{
+         
+            background-color: rgb(207, 155, 255);
+        }
+
+    </style>
+</head>
+<body>
+    <header class="header">
+        <nav>
+               <a href="">Services</a>
+               <a href="">Projects</a>
+               <a href="">About</a>
+               <a href="">Contact</a>
+        </nav>
+        <div class="logo">
+           LOGOBAKERY
+        </div>
+    </header>
+</body>
+</html>
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display: flex;
+            height: 350px;
+            width: 80%;
+            margin: auto;
+            border: 2px solid black;
+            border-radius: 20px;
+            align-items: center;
+            overflow-x: scroll;
+            gap: 30px;
+        }
+        .cards{
+            height: 90%;
+            width: 250px;
+            border: solid;
+            border-radius: 20px;
+            flex-shrink: 0;
+            background-image: url('https://occ-0-1492-64.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABQFmi2qrQTOShMevIIgOcMdy2h-nqU5swZHnjzJZJbnfTO_oJnzTZp4B8KKOEPMq0DzI2z5-XE4bjchCAQYlPvWR1jBzggTo3sM.webp?r=960');
+            background-size: cover;
+        }
+        .card2{
+            background-image: url('https://occ-0-1492-64.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABXofeOBMXfake2UpvS5aFutul0vL1os5iYG20jqPr6_CIZz7qEqvCqNXmIU067p1VhsR0lI1FDQBpMdmsupJ_6BaGVGcv-8SnP9DEaXEY3Jp8rvUHARX3b1iQhLn3rpbw8W_.webp?r=184');
+        }
+        ::-webkit-scrollbar{
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="cards card1"></div>
+        <div class="cards card2"></div>
+        <div class="cards card3"></div>
+        <div class="cards card4"></div>
+        <div class="cards card5"></div>
+        <div class="cards card6"></div>
+        <div class="cards card7"></div>
+        <div class="cards card8"></div>
+        <div class="cards card9"></div>
+        <div class="cards card10"></div>
+    </div>
+</body>
+</html>

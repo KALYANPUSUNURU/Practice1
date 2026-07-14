@@ -1,0 +1,56 @@
+        // ! Generating a random number b/w a given range 
+        // ! Math.floor(Math.random()*(max-min))+min
+        // let random = Math.floor(Math.random()*90)+10
+        // console.log(random);
+
+        // ! Function to generate a random color
+        function randomColor(){
+            let r = Math.floor(Math.random()*255)
+            let g = Math.floor(Math.random()*255)
+            let b = Math.floor(Math.random()*255)
+            return `rgb(${r} , ${g} , ${b})`
+        }
+        let body = document.body;
+        let sec = document.createElement('section')
+        let arr = new Array(36)
+        arr.fill(0);
+        arr.forEach((el)=>{
+            let div = document.createElement('div')
+            div.style.backgroundColor = randomColor()
+            sec.appendChild(div)
+        })
+        body.appendChild(sec)
+        
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        section{
+            margin: auto;
+            height: 600px;
+            width: 600px;
+            border: 2px solid black;
+            display: grid;
+            grid-template-columns: repeat(6,1fr);
+            grid-template-rows: repeat(6,1fr);
+        }
+        div{
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+
+
+    <script src="./randomColor.js"></script>
+</body>
+</html>

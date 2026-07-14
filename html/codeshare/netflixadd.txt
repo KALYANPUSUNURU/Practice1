@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display: flex;
+            height: 350px;
+            width: 80%;
+            margin: auto;
+            border: 2px solid black;
+            border-radius: 20px;
+            align-items: center;
+            overflow-x: scroll;
+            gap: 40px;
+            padding: 0px 30px;
+        }
+        .cards{
+            height: 90%;
+            width: 250px;
+            border: solid;
+            border-radius: 20px;
+            flex-shrink: 0;
+            background-image: url('https://occ-0-1492-64.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABQFmi2qrQTOShMevIIgOcMdy2h-nqU5swZHnjzJZJbnfTO_oJnzTZp4B8KKOEPMq0DzI2z5-XE4bjchCAQYlPvWR1jBzggTo3sM.webp?r=960');
+            background-size: cover;
+            position: relative;
+        }
+        .card2{
+            background-image: url('https://occ-0-1492-64.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABXofeOBMXfake2UpvS5aFutul0vL1os5iYG20jqPr6_CIZz7qEqvCqNXmIU067p1VhsR0lI1FDQBpMdmsupJ_6BaGVGcv-8SnP9DEaXEY3Jp8rvUHARX3b1iQhLn3rpbw8W_.webp?r=184');
+        }
+        ::-webkit-scrollbar{
+            display: none;
+        }
+        span{
+            font-size: 120px;
+            font-family: sans-serif;
+            font-weight: 700;
+            position: absolute;
+            bottom: 20px;
+            left: -30px;
+            /* border: 4px solid white; */
+            -webkit-text-stroke: 4px white;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+      <div class="cards card1"><span>1</span></div>
+      <div class="cards card2"><span>2</span></div>
+      <div class="cards card3"><span>3</span></div>
+      <div class="cards card4"><span>4</span></div>
+      <div class="cards card5"><span>5</span></div>
+      <div class="cards card6"><span>6</span></div>
+      <div class="cards card7"><span>7</span></div>
+      <div class="cards card8"><span>8</span></div>
+      <div class="cards card9"><span>9</span></div>
+      <div class="cards card10"><span>10</span></div>
+    </div>
+</body>
+</html>
+
+
+<!--! https://codeshare.io/5PAEEw -->

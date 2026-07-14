@@ -1,0 +1,102 @@
+
+ Array 
+// Array is an ordered collection of homogeneous and heterogeneous data elements 
+// In js array has dynamic 
+1
+// ! Array 
+2
+// Array is an ordered collection of homogeneous and heterogeneous data elements 
+3
+// In js array has dynamic size , it will increase or decrease by itself if we will perform some operation
+4
+// ! Ways to create an array 
+5
+// 1. By using literal []
+6
+// let arr = [10 , 20 , true , 'abc' , undefined , null]
+7
+// console.log(arr);
+8
+// // 2. By using constructor 
+9
+// let arr2 = new Array()
+10
+// console.log(arr2); // []
+11
+// // !Ex2 ->if we pass a single numeric arg , it will take that as the length of the array 
+12
+// let arr3 = new Array(5)
+13
+// console.log(arr3); //(5) [empty × 5]
+14
+// // ! Ex3 -> if we pass any other values other than numeric value , it will take that as an element
+15
+// let arr4 = new Array('6')
+16
+// console.log(arr4); ///['6']
+17
+// // ! Ex4 -> if we pass more than one arg , that also will be taken as elements of the array
+18
+// let arr5 = new Array(5 , 10)
+19
+// console.log(arr5); //(2) [5, 10
+20
+// console.log(frui
+21
+// let nums = [10 , 20 , 30 , 40 , 50];
+22
+// for(let i = 0; i<nums.length; i++){
+23
+//     console.log(nums[i]);
+24
+// }
+25
+//! for in loop 
+26
+// for in loop is used to iterate over the index of the array 
+27
+// for(let i in nums){
+28
+//     console.log(i);
+29
+// }
+30
+//! for of loop 
+31
+// for of loop is used to iterate over the elements of the array 
+32
+// for(let i of nums){
+33
+//     console.log(i);
+34
+// }
+35
+// ! property
+36
+// ! length 
+37
+// length will return the number of elements present inside an array
+38
+// ! methods
+39
+// ! 1. push(el)
+40
+// it is used to add the elements at the last of the array 
+41
+// it will modify the original array 
+42
+// let arr = [10 , 20]
+43
+// arr.push(50);
+44
+// console.log(arr); //(3) [10, 20, 50]
+45
+// !2. pop()
+46
+// pop is used to remove the element from the last index of the array , it'll modify the original array 
+47
+// arr.pop()
+
+
+
+Hide Ads

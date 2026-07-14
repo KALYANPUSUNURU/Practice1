@@ -1,0 +1,78 @@
+{{{{{[[[10-nov- 2025]]]}}}}}
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <b>Bold</b>
+    <h1>Hello</h1>
+    <p>
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis
+      aperiam autem delectus quam quod laudantium necessitatibus eveniet dolorum
+      numquam non debitis tenetur magni quisquam iure libero quae, natus
+      consequatur dolor. Similique perspiciatis nemo a dolores. Quam deleniti
+      asperiores molestias, enim ipsa dolores temporibus aperiam. Deleniti,
+      optio non numquam inventore esse officia! Exercitationem commodi ipsum id
+      odit cum laborum architecto tenetur. Culpa, iusto temporibus fuga commodi
+      tempore eligendi exercitationem cupiditate autem quisquam cumque corrupti
+      cum laudantium repellat sequi nesciunt provident consequatur corporis.
+      Nobis harum dolores voluptates deserunt iste consequatur in eligendi!
+      Suscipit maxime officiis, nostrum illo temporibus molestias repudiandae
+      odit, in voluptatem quasi sunt, itaque quis? Eveniet consequuntur voluptas
+      quisquam non vitae saepe impedit. Blanditiis molestiae cum soluta, fugiat
+      porro unde? Explicabo nam saepe fuga aliquam totam consectetur corporis
+      possimus? Distinctio assumenda qui libero tempora dolore alias quibusdam
+      ipsum atque, fuga illo. Perferendis id nisi doloribus quibusdam delectus,
+      dignissimos nostrum ullam. Ducimus expedita unde vero, dolorum ipsam nam
+      maxime quos sint, alias voluptatibus consequuntur! Ex asperiores fugiat
+      nam cumque suscipit incidunt quod corrupti facilis, magnam vitae quidem
+      tenetur ut quis sunt! Rerum hic perferendis minima iusto incidunt
+      consectetur accusamus quae tenetur aliquam blanditiis molestiae laboriosam
+      molestias alias fugit nihil odit eveniet, dicta magnam fuga aut ad?
+      Distinctio delectus molestiae qui voluptatem? Impedit aliquam vero iste
+      pariatur fugit harum molestiae, sit suscipit quasi ea reiciendis nihil
+      eum, eveniet illo dolore quas, at praesentium ex deleniti laborum? Dolorem
+      totam animi omnis nihil laborum?
+    </p>
+  </body>
+
+
+h1 {
+  /* background-color: red; */
+  text-align: center;
+  /* text-align: right; */
+  text-shadow: 11px 9px 7px black;
+  text-decoration: underline wavy blueviolet;
+}
+p {
+  text-align: right;
+  text-align: center;
+  text-align: justify;
+  text-transform: uppercase;
+  text-transform: lowercase;
+  text-transform: capitalize;
+  text-indent: 100px;
+  text-wrap: wrap;
+  /* text-wrap: nowrap; */
+  text-decoration-line: underline;
+  /* text-decoration-line: overline;
+  text-decoration-line: line-through; */
+  text-decoration-style: solid;
+  text-decoration-style: wavy;
+  text-decoration-style: dashed;
+  text-decoration-style: double;
+  text-decoration-color: yellow;
+}
+b {
+  background-color: yellow;
+  text-align: center;
+}
+
+</html>
