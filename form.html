@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <style>
+    .kalyan{
+        color: yellowgreen;
+    }
+    </style>
+    <style>
+        .As{
+        color: blue;
+        background-color: yellow;
+        }
+        .radius{
+            width: 100px;
+            height: 100px;
+            background-color: yellow;
+            animation-name:box ;
+            animation-duration: 3s;
+            animation-iteration-count: infinite;
+        }
+        @keyframes radius{
+0%{
+    width: 200px;
+    height: 200px;
+    background-color: color(srgb red green blue);
+}
+50%{
+    border-radius: 50%;
+}
+100%{
+    background-color: blue;
+    transform: translate(400px);
+    border-radius: 50%;
+}
+        }
+    </style>
+    
+    
+</head>
+<body>
+    <table></table>
+    <h1> forms</h1>
+    <form action="response.html" target="_blank">
+        <tr>
+        <label>name:</label>
+        <input type="text" id="name" name="Name"><br>
+        <label>PAssword:</label>
+        <input type="password" id="password" name="password"><br>
+        <label>Email:</label>
+        <input type="email" id="email" name="email"><br>
+        Gender
+        <input type="radio" name="Gender">Male
+        <input type="radio" name="Gender">female<br>
+        <label>Languages known</label><br>
+        <input type="checkbox" name="English">English<br>
+        <input type="checkbox" name="telugu">telugu<br>
+        <input type="checkbox" name="hindi">hindi<br>
+        <label>Date :</label>
+        <input type="date" >
+        <label>To</label>
+        <input type="date" ><br>
+        <input type="submit" name="submit"><br>
+        <input type="file"><br>
+        <input type="search"><br>
+        <input type="month"><br>
+        <input type="datetime-local"><br>
+<br>
+        <label>Different types of cars</label>
+        <select id="cars">
+        <option>Fortuner</option>
+        <option>volovo</option>
+        <option>Tata</option>
+        <option>Ford</option>
+        </select><br>
+<button type="button" onclick="alert('Hello World')">Click Me!</button>
+        <input type="button" onclick="alert(HELLO WORLD!)">Click me
+        <button type="button" onclick="alert('Hello World!')">Click Me!</button>
+<button type="button" onclick="alert('Hello World!')">Click Me!</button>
+</tr>
+<br>
+
+<span class="material-symbols-outlined kalyan">
+assistant_navigation
+</span>
+    </form>
+    </table>
+    <button class="As">HELLO</button>
+
+    <div class="radius"></div>
+</body>
+</html>

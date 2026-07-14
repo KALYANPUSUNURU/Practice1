@@ -1,0 +1,21 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.hero-section{
+    background-image: url(hotel.jpg);
+    background-size: cover;
+    width: 205dvh;
+    height: 100dvh;
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  transform:translate(-50%,-50%)
+    text-align: center;
+    
+}
+
+
+
+<link  rel="stylesheet"  href="style.css">

@@ -1,0 +1,127 @@
+  let username = prompt('Enter your name');
+    if(username){
+        let age = prompt('Enter your age')
+        if(age){
+             console.log(username , age);
+        }else{
+            console.log('Enter correct age');
+            
+        }
+    }else{
+        console.log('please enter the correct username')
+    }// !Truthy and Falsy values
+// If a value is evaluated(coerced) to true in a boolean context that value is a truthy value 
+// If a value is evaluated(coerced) to false in a boolean context that value is a falsy value 
+// ! There are 7 falsy values in js
+// 0
+// 0n
+// ''
+// false
+// undefined
+// null
+// NaN
+// ! other than these 7 values , everything is truthy
+// To check if a value is falsy or truthy we can use Boolean()
+// console.log(Boolean(0)); // false
+// console.log(Boolean('Atul')); // true
+// console.log(Boolean([])); // true
+// console.log(Boolean(null)); // false
+// console.log(Boolean(undefined)); //false
+// console.log(Boolean(NaN)); //false
+// console.log(Boolean(30)); //true
+
+// ! Conditional Statements
+// Conditional statements are used to execute a block of code based on a condition , if the condition is satisfied it will execute that particular block otherwise it'll skip or it'll move to another block 
+
+// ! 1. if(condition){}
+    // let user = 'pranav'
+    //  if(user === 'admin'){
+    //     console.log('Welcome to admin page');
+    //  }
+// ! 2. if-else
+//     let user = 'atul';
+// if(user === 'admin'){
+//      console.log('Hello , Admin');
+// }else{
+//     console.log('Hello , Guest');
+// }
+// !a. take a number as input from the user and print if it is odd or even
+// !b. Print the total amount
+// take thee price from the user 
+// if price is more than 2000 give 10% discount
+// if price is more than 4000 give 20% discount
+// if price is more than 6000 give 30% discount
+// let price = parseInt(prompt('Enter the total amount'))
+// if(price>6000){
+//     console.log('Discounted Price is ' , price-price*0.3);
+// }else if(price>4000){
+//     console.log('Discounted Price is ' , price-price*0.2);
+// }else if(price>2000){
+//     console.log('Discounted Price is ' , price-price*0.1);
+// }else{
+//     console.log('There is no discount');
+// }
+// !c. suppose we are creating an app for booking the cab 
+// ask the user about what vehicle they need (car 20rs/km , bike 12rs/km , auto 16rs/km)
+// ask the distance also and calculate the total bill amount
+
+// ! d. there are two players p1 and p2  , they are playing rock , paper , scissor
+// p1 could be rock , paper , scissor
+// p2 also could be rock , paper , scissor
+// You have to find the winner 
+
+// ! 3. if-else if
+// let age = 10;
+// if(age<18){
+//     console.log('Teenage');
+// }
+// else if(age>18 && age<60){
+//     console.log('Adult');
+// }
+// else if(age>60 && age<90){
+//     console.log('Old');
+// }
+// else{
+//     console.log('Died');
+// }
+
+
+// ! 5. switch case 
+
+// let day = 9;
+// switch(day){
+//     case 0:{
+//         console.log('Sunday');
+//         break;
+//     }
+//     case 1:{
+//         console.log('Monday');
+//         break;
+//     }
+//     case 2:{
+//         console.log('Tuesday');
+//         break;
+//     }
+//     case 3:{
+//         console.log('Wednesday');
+//         break;
+//     }
+//     case 4:{
+//         console.log('Thursday');
+//         break;
+//     }
+//     case 5:{
+//         console.log('Friday');
+//         break;
+//     }
+//     case 6:{
+//         console.log('Saturday');
+//         break
+//     }
+//     default:{
+//         console.log('Please enter correct day');
+//     }
+// }
+// ! fallthrough -> if we do not put break keyword after each case , it fall to the next case then to the next and so on .
+
+// https://codeshare.io/29rOM0

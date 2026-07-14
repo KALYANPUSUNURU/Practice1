@@ -1,0 +1,19 @@
+h1{
+    border: 10px solid greenyellow;
+    font-size: 50px;
+    background-color: aqua;
+}
+table{
+    border: 5px solid yellow;
+   background-color: aqua; 
+   color: black;
+}
+body{
+    background-color: antiquewhite;
+}
+h4{
+    h4::before{
+        content: This is the before element;
+        color: yellowgreen;
+    }
+}

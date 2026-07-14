@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        div{
+            /* width: 100%; */
+            font-size: 26px;
+            padding: 20px;
+            border: 2px solid black;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin: 40px;
+        }
+        button{
+            padding: 10px 20px;
+            font-size: 24px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+       <p> This is the div created for example </p><button>ChangeColor</button>
+    </div>
+
+    <script>
+        let btn = document.querySelector('button')
+        let div = document.querySelector('div')
+        btn.addEventListener('click' , (e)=>{
+            e.stopPropagation()
+            console.log('Button is clicked');
+            
+            div.style.backgroundColor = 'red'
+        })
+        div.addEventListener('click' , ()=>{
+            console.log('div is clicked');
+            
+            div.remove()
+        })
+    </script>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            height: 100vh;
+        }
+        .flex{
+             display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        section{
+            height: 500px;
+            width: 600px;
+            border: 2px solid black;
+            background-color: blueviolet;
+        }
+        div{
+            height: 300px;
+            width: 400px;
+            border: 2px dashed black;
+            background-color: antiquewhite;
+        }
+        button{
+            padding: 10px 20px;
+            font-size: 24px;
+            background-color: red;
+            color: yellow;
+        }
+    </style>
+</head>
+<body class="flex">
+   <section class="flex">
+    <div class="flex">
+        <button>Click</button>
+    </div>
+   </section>
+   <script>
+    let body = document.body;
+    let sec = document.querySelector('section')
+    let div = document.querySelector('div')
+    let btn = document.querySelector('button')
+    body.addEventListener('click' , (e)=>{
+        e.stopPropagation()
+        console.log('Body is clicked');
+    })
+    sec.addEventListener('click' , (e)=>{
+        e.stopPropagation()
+        console.log('section is clicked');
+    })
+    div.addEventListener('click' , (e)=>{
+        e.stopPropagation()
+        console.log('div is clicked');
+    })
+    btn.addEventListener('click' , (e)=>{
+        e.stopPropagation()
+        console.log('btn is clicked');
+    })
+   </script>
+
+</body>
+</html>

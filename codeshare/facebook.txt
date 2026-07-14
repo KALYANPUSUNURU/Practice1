@@ -1,0 +1,119 @@
+<<<<<<<<<<<<20-11-2025>>>>>>> facebook
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./facebook.css">
+</head>
+<body>
+    <main class="mainContainer">
+       <div class="leftContainer">
+          <img src=".//4lCu2zih0ca.svg" alt="">
+          <p>Facebook helps you connect and share with the people in your life.</p>
+       </div>
+       <div class="rightContainer">
+        <form action="">
+            <input type="text" class="d1" placeholder="Email address or Phone number">
+            <input type="text" class="d1" placeholder="Password">
+            <button class="d1 btn">Log in</button>
+            <a href="#">Forgotten Password ?</a>
+            <hr class="line">
+            <button class="cna">Create new account</button>
+        </form>
+        <p><b>Create a Page </b>for a celebrity, brand or business.</p>
+       </div>
+    </main>
+</body>
+</html>
+
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+     font-family: "Noto Sans", sans-serif;
+}
+.mainContainer{
+    height: 80vh;
+    width: 100vw;
+    background-color: #F2F4F7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+.leftContainer{
+    width: 550px;
+}
+.leftContainer img{
+        height: 110px;
+    margin: -28px;
+}
+.leftContainer p{
+    font-size: 
+28px;
+}
+.rightContainer form{
+    height: 350px;
+    width: 400px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    padding: 20px 0px;
+    box-shadow: 6px 6px 10px 0px #c6c6c6;
+    border-radius: 10px;
+}
+.rightContainer form .d1{
+    height: 53px;
+    width: 360px;
+    border-radius: 6px;
+    padding: 0px 20px;
+    font-size: 17px;
+    border: 0.5px solid #a0a0a0;
+}
+.rightContainer form .btn{
+    background-color: #0866FF;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+}
+.rightContainer form a{
+    text-decoration: none;
+    color: 
+#0866FF;
+font-weight: 500;
+font-size: 14px;
+}
+.rightContainer p{
+    font-size: 14px;
+    text-align: center;
+    margin-top: 20px;
+}
+.rightContainer form .line{
+    width: 360px;
+}
+.rightContainer form .cna{
+    height: 50px;
+    width: 190px;
+    border-radius: 6px;
+    border: none;
+   background-color: #42B72A;
+
+   font-size: 17px;
+   font-weight: 700;
+   color: white;
+}

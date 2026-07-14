@@ -1,0 +1,60 @@
+14-11-2025>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>box 
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      .card {
+        height: 450px;
+        width: 320px;
+        border: 2px solid black;
+        margin: 0px auto;
+      }
+      .card img {
+        width: 100%;
+        height: 40%;
+      }
+      h3 {
+        margin: 20px 30px;
+        font-size: 30px;
+        font-family: sans-serif;
+        font-weight: 500;
+      }
+      p {
+        padding: 0px 30px;
+      }
+      .btn {
+        margin: auto;
+        width: 80%;
+        border: 2px solid black;
+        background-color: #e6ecfe;
+        padding: 20px 40px;
+        text-align: center;
+        margin-top: 30px;
+      }
+    </style>
+  </head>
+  <body>
+    <section class="card">
+      <img
+        src="https://iso.500px.com/wp-content/uploads/2013/08/11834033-1170.jpeg"
+        alt=""
+      />
+      <h3>A starry night</h3>
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum
+        delectus, explicabo fuga odit neque possimus?
+      </p>
+      <div class="btn">Explore -></div>
+    </section>
+  </body>
+</html>

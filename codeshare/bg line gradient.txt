@@ -1,0 +1,72 @@
+<<<<<<<12-11-205>>>><<<<<wednesday>>>>>>
+background color  :linear gradient
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      /* .box {
+        height: 300px;
+        width: 300px;
+        background-image: linear-gradient(to top left, red, blue, yellow);
+      } */
+      .flag {
+        height: 300px;
+        width: 400px;
+        border: solid;
+        background-image: linear-gradient(
+          orange 0px,
+          orange 100px,
+          white 100px,
+          white 200px,
+          green 200px,
+          green 300px
+        );
+      }
+      .box2 {
+        height: 300px;
+        width: 300px;
+        border: 2px solid black;
+        /* background-image: radial-gradient(ellipse, red, yellow, green); */
+        border-radius: 50%;
+        background-image: conic-gradient(
+          red 0deg,
+          red 90deg,
+          blue 90deg,
+          blue 180deg,
+          yellow 180deg,
+          yellow 270deg,
+          green 270deg,
+          green 360deg
+        );
+      }
+      .box3 {
+        height: 300px;
+        width: 300px;
+        border: 2px solid black;
+        /* background-image: radial-gradient(ellipse, red, yellow, green); */
+        border-radius: 50%;
+        background-image: conic-gradient(
+          red 0deg,
+          red 120deg,
+          green 120deg,
+          green 240deg,
+          yellow 240deg,
+          yellow 360deg
+        );
+      }
+    </style>
+  </head>
+  <body>
+    <!-- <section class="box"></section>
+    <div class="flag"></div> -->
+    <div class="box2"></div>
+    <div class="box3"></div>
+  </body>
+</html>
